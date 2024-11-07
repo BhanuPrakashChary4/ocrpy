@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Docker files
+docker-compose.override.yml
+*.log
+*.pid
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore Python packages
+*.egg
+*.whl
+
+# PyInstaller
+*.spec
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore Tesseract output files
+*.txt
+*.pdf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
